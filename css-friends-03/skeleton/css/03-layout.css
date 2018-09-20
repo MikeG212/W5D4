@@ -16,5 +16,35 @@
    border: 1px solid grey;
    padding: 20px;
    width: 680px;
-   /* min-height: 200px; */
  }
+ 
+ footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-top: none;
+  width: 900px;
+  margin: 0 auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+ }
+ 
+ footer ul{
+  display: flex;
+  padding: 10px 15px;
+ }
+ 
+ footer ul li{
+   padding: 10px 15px;
+ }
+ 
+ footer p{
+  padding: 20px 15px;
+ }
+ 
+ footer a:hover {
+  color: gray;
+}
+
+ 
+ 
